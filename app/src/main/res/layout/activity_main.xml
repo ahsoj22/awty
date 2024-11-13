@@ -7,21 +7,21 @@
     <EditText
         android:id="@+id/messageEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="58dp"
         android:hint="Enter Message"
         android:inputType="text" />
 
     <EditText
         android:id="@+id/phoneNumberEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="66dp"
         android:hint="Enter Phone Number"
         android:inputType="phone" />
 
     <EditText
         android:id="@+id/intervalEditText"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
         android:hint="Enter Interval (minutes)"
         android:inputType="number" />
 

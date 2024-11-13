@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "edu.uw.ischool.jtay25.awty"
-    compileSdk = 34
+    compileSdk = 28
 
     defaultConfig {
         applicationId = "edu.uw.ischool.jtay25.awty"
         minSdk = 28
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -37,12 +37,12 @@ android {
 
 dependencies {
 
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
-    implementation(libs.androidx.activity)
-    implementation(libs.androidx.constraintlayout)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+    implementation("androidx.appcompat:appcompat:1.0.2")
+    implementation("androidx.core:core-ktx:1.0.2")
+    implementation("androidx.constraintlayout:constraintlayout:1.1.3")
+    implementation("com.google.android.material:material:1.0.0")
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.test.ext:junit:1.1.0")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.1.0")
 }
